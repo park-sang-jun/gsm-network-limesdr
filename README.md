@@ -75,7 +75,7 @@ Run the following commands to start each component. You will need one terminal w
 ```
 sudo osmo-trx-lms -C ~/.osmocom/osmo-trx-lms.cfg
 sudo osmo-nitb -c ~/.osmocom/osmo-nitb.cfg 
-sudo osmo-bts-trx -c /.osmocom/osmo-bts.cfg 
+sudo osmo-bts-trx -c ~/.osmocom/osmo-bts-trx.cfg 
 ```
 
 The GSM network should be up and running.
