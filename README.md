@@ -74,7 +74,7 @@ Download the configuration files into a folder (named `.osmocom`) in the home di
 Run the following commands to start each component. You will need one terminal window for each of these commands:
 ```
 sudo osmo-trx-lms -C ~/.osmocom/osmo-trx-lms.cfg
-sudo osmo-nitb -c ~/.osmocom/osmo-nitb.cfg 
+sudo osmo-nitb -c ~/.osmocom/openbsc.cfg 
 sudo osmo-bts-trx -c ~/.osmocom/osmo-bts-trx.cfg 
 ```
 
